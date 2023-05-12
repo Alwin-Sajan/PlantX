@@ -59,6 +59,7 @@
 
 html,
 body {
+    
     height: 100%;
     width: 100%;
     padding: 0;
@@ -816,6 +817,7 @@ button {
 }
 
 .hero {
+    background-color: lightgreen;
     padding: 159px 0 140px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -851,16 +853,26 @@ button {
     max-width: 1800px;
     margin: auto;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     z-index: 2;
+    padding: 0 0%;
+    line-height: 30px;
+    padding-bottom: 25px;
+    background-color: #B7C2D8;
+}
+
+
+.screen-wrapper .screen {
+    margin: 0 auto 10px;
+    width: 1400px;
     padding: 0 10%;
 }
 
-.screen-wrapper .screen {
-    margin: 0 auto -140px;
-    width: 1400px
-}
 
+
+.banner{
+    padding: 0;
+}
 .title {
     position: relative;
     max-width: 90%;
@@ -909,7 +921,8 @@ button {
 }
 
 .section.imagery .zero-slider {
-    margin-top: 80px
+    margin-top: 80px;
+    background-color: lightskyblue;
 }
 
 .section.imagery .zero-slider .slide {
@@ -1007,7 +1020,7 @@ button {
 }
 
 .overlay-bottom {
-    bottom: 100px
+    bottom: 0px
 }
 
 .content {
@@ -1026,9 +1039,9 @@ button {
     }
 
     .screen-wrapper .screen {
-        margin: 0 auto -40px;
+        margin: 0 auto 50px;
         max-width: none;
-        width: 600px
+        width: 100%
     }
 
     .section {
@@ -1816,7 +1829,7 @@ a:hover {
 
 @media only screen and (min-width: 1200px) {
     .screen-wrapper {
-        padding: 0 12%;
+        padding: 0 0%;
     }
 }
 
@@ -1927,3 +1940,15 @@ a:hover {
     padding: 127px;
 
 }
+section.section.imagery {
+    background-color: lightskyblue;
+    padding-bottom: 0;
+}
+section.section.section-features {
+    padding-top: 63px;
+}
+
+/* @media only screen and (min-width: 1200px)
+.screen  {
+    padding: 0 12%;
+} */

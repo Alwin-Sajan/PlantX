@@ -1,0 +1,364 @@
+@font-face {
+  font-family: 'colfax-light';
+  src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'colfax-medium';
+  src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'colfax-bold';
+  src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #9ec879;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    left: 0;
+    line-height: 40px;
+    text-align: center;
+    
+  }
+  a{
+    text-align: center;
+    font-family: "colfax-medium", sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    line-height: 2.6;
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+/* Main content */
+  .mains {
+    position: initial;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+    margin-top: 69px; /* Add a top margin to avoid content overlay */
+    font-family: "colfax-light", sans-serif;
+}
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+img{
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 75%;
+    margin-top: 50px;
+    transition: 200ms;
+    display:block;
+    
+} 
+img:hover{
+    width: 300px;
+    border-radius: 22%;
+    border-bottom-right-radius: 50%;
+    margin-left: 75%;
+    margin-top: 50px;
+}
+
+.titlehead {
+  padding-left: 24px;
+  
+  color: #e3f1d6;
+  font-family: "colfax-medium", sans-serif;
+  font-size: 69px;
+}
+
+
+.titlblack {
+  padding-left: 24px;
+  
+  color: #292929;
+  font-family: "colfax-medium", sans-serif;
+  font-size: 69px;
+}
+
+
+
+
+.Profile{
+  width: 100%;
+  transition: 200ms;
+  display:block;
+  background-image: url(plant_gr.jpg);
+  height: 400px;
+  position: inherit;
+  overflow: hidden;
+  zoom: normal;
+  opacity: 0.8;
+}
+.Profile:hover{
+  width: 100%;
+  opacity: 1;
+
+}
+
+/* tomato */
+.Profileto{
+  width: 100%;
+  transition: 200ms;
+  display:block;
+  background-image: url(tom.jpg);
+  height: 400px;
+  position: inherit;
+  overflow: hidden;
+  zoom: normal;
+  opacity: 0.6;
+}
+.Profileto:hover{
+  width: 100%;
+  opacity: 1;
+
+}
+
+/* brinjal */
+.Profilebr{
+  width: 100%;
+  transition: 200ms;
+  display:block;
+  background-image: url(brj.jpg);
+  height: 400px;
+  position: inherit;
+  overflow: hidden;
+  zoom: normal;
+  opacity: 0.6;
+}
+.Profilebr:hover{
+  width: 100%;
+  opacity: 1;
+
+}
+
+
+.bgh{width: 200px;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: -129px;
+    transition: 200ms;
+    display:flex;
+    opacity: 1;
+    }
+
+ .bgh:hover{
+    width: 200px;
+    border-radius: 22%;
+    border-bottom-right-radius: 50%;
+    margin-left: 80%;
+    margin-top: -129px;
+ }   
+
+.content-blurred {
+  -webkit-filter: blur(40px);
+  filter: blur(40px)
+}
+As{
+  text-align: center;
+  font-family: "colfax-bold", sans-serif;
+  letter-spacing: 2px;
+  font-weight: normal;
+  line-height: 2.6;
+}
+p{
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+
+
+/* text  */
+.textwe{
+  width: 80%;
+}
+.assdf{
+  width: 20%;
+}
+.newerw{
+  width: 100%;
+  height: 200px;
+  padding-left: 29px;
+  padding-right: 20px;
+}
+
+#main-div{
+  width: 100%;    
+  margin-bottom: 0px;
+  padding-right: 200px
+}
+#SB-div{
+  width: 25%;
+  min-height: 400px;
+  margin-right: 12px;
+  border-radius: 22%;
+  background-image: url("img1.jpg");
+  background-position: center;
+  background-size:cover;
+  float: right;
+
+  text-align: center;
+  line-height: 400px;
+}
+
+#SBbr-div{
+  width: 25%;
+  min-height: 400px;
+  margin-right: 12px;
+  border-radius: 22%;
+  background-image: url("brj2.jpg");
+  background-position: center;
+  background-size:cover;
+  float: right;
+
+  text-align: center;
+  line-height: 400px;
+}
+
+
+
+#BA-div{
+  width: 70%;
+  min-height: 500px;
+
+  float: left;
+  text-align: center;
+
+}
+
+/* #SBA-div{
+width: 5%;
+min-height: 500px;
+background-color:#CFCECA ;
+float: right;
+text-align: center;
+line-height: 500px;
+} */
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+
+
+h1{
+
+}
+.button{
+    letter-spacing: -0.3px;
+    font-family: "colfax-light", sans-serif;
+    font-size: 16px;
+    margin-right: 21px;
+    line-height: 2;
+    color: #222
+}
+
+h2{
+  padding-left: 20px;
+}
+
+
+button {
+  -webkit-appearance: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer
+}
+
+.button {
+  -webkit-box-shadow: 0 20px 30px -10px rgba(54, 54, 54, 0.6);
+  box-shadow: 0 20px 30px -10px rgba(54, 54, 54, 0.6);
+  padding: 12px 30px 10px;
+  letter-spacing: -0.5px;
+  display: inline-block;
+  border-radius: 100px;
+  font-family: "colfax-medium", sans-serif;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-align: center;
+  position: relative;
+  background: #000000;;
+  cursor: pointer;
+  color: #fff;
+  width: auto;
+  z-index: 2
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 30px 40px -10px rgba(54, 54, 54, 0.8);
+  box-shadow: 0 30px 40px -10px rgba(54, 54, 54, 0.8);
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  color: #fff
+}
+
+.button:active {
+  -webkit-box-shadow: 0 20px 30px -10px rgba(54, 54, 54, 0.6);
+  box-shadow: 0 20px 30px -10px rgba(54, 54, 54, 0.6);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
+
+.button:before {
+  -webkit-animation: pulse 2s ease infinite;
+  animation: pulse 2s ease infinite;
+  background: rgba(54, 54, 54, 0.4);
+  border-radius: 100px;
+  position: absolute;
+  content: "";
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0
+}
+
+.button.white {
+  -webkit-box-shadow: 0 20px 30px -10px rgba(34, 34, 34, 0.2);
+  box-shadow: 0 20px 30px -10px rgba(34, 34, 34, 0.2);
+  background: #fff;
+  color: #222
+}
+
+.button.white:before {
+  background: rgba(255, 255, 255, 0.4)
+}
+
+.button.white:hover {
+  -webkit-box-shadow: 0 30px 40px -10px rgba(34, 34, 34, 0.4);
+  box-shadow: 0 30px 40px -10px rgba(34, 34, 34, 0.4)
+}
